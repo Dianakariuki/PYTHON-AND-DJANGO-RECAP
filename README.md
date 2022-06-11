@@ -28,14 +28,14 @@ If you create a variable with the same name inside a function, this variable wil
 
 ## Data types
 
-Text Type:	str # eg 'hello'
-Numeric Types:	int, float, complex  
-Sequence Types:	list, tuple, range
-Mapping Type:	dict
-Set Types:	set, frozenset
-Boolean Type:	bool
-Binary Types:	bytes, bytearray, memoryview
-None Type:	NoneType
+ “*”Text Type:	str # eg 'hello'
+ “*”Numeric Types:	int, float, complex  
+ “*”Sequence Types:	list, tuple, range
+ “*”Mapping Type:	dict
+ “*”Set Types:	set, frozenset
+ “*”Boolean Type:	bool
+ “*”Binary Types:	bytes, bytearray, memoryview
+ “*”None Type:	NoneType
 
 ### Getting the Data Type
 
@@ -44,38 +44,38 @@ x = 5
 print (type(x))
 
 ### setting the Data type 
-x = "Hello World"-------str	
-x = 20	----------------int	
-x = 20.5	------------float	
-x = 1j----------------	complex	
-x = ["apple", "banana", "cherry"]-------------	list	
-x = ("apple", "banana", "cherry")-------------	tuple	
-x = range(6)------------	range	
-x = {"name" : "John", "age" : 36}--------------	dict	
-x = {"apple", "banana", "cherry"}--------------	set	
-x = frozenset({"apple", "banana", "cherry"})----------------	frozenset	
-x = True-------------	bool	
-x = b"Hello"----------------------	bytes	
-x = bytearray(5)------------bytearray	
-x = memoryview(bytes(5))--------	memoryview	
-x = None
+ “*”x = "Hello World"-------str	
+ “*”x = 20	----------------int	
+ “*”x = 20.5	------------float	
+ “*”x = 1j----------------	complex	
+ “*”x = ["apple", "banana", "cherry"]-------------	list	
+ “*”x = ("apple", "banana", "cherry")-------------	tuple	
+ “*”x = range(6)------------	range	
+ “*”x = {"name" : "John", "age" : 36}--------------	dict	
+ “*”x = {"apple", "banana", "cherry"}--------------	set	
+ “*”x = frozenset({"apple", "banana", "cherry"})----------------	frozenset	
+ “*”x = True-------------	bool	
+ “*”x = b"Hello"----------------------	bytes	
+ “*”x = bytearray(5)------------bytearray	
+ “*”x = memoryview(bytes(5))--------	memoryview	
+ “*”x = None
 
 ### setting the specific Data type 
 
-x = str("Hello World")------------------	str	
-x = int(20)	----------------int	
-x = float(20.5)---------------	float	
-x = complex(1j)	----------------complex	
-x = list(("apple", "banana", "cherry"))-----------------	list	
-x = tuple(("apple", "banana", "cherry"))----------------	tuple	
-x = range(6)----------------	range	
-x = dict(name="John", age=36)------------	dict	
-x = set(("apple", "banana", "cherry"))-------------	set	
-x = frozenset(("apple", "banana", "cherry"))------------	frozenset	
-x = bool(5)--------------	bool	
-x = bytes(5)----------	bytes	
-x = bytearray(5)----------	bytearray	
-x = memoryview(bytes(5))-----------	memoryview	
+ “*”x = str("Hello World")------------------	str	
+ “*”x = int(20)	----------------int	
+ “*”x = float(20.5)---------------	float	
+ “*”x = complex(1j)	----------------complex	
+ “*”x = list(("apple", "banana", "cherry"))-----------------	list	
+ “*”x = tuple(("apple", "banana", "cherry"))----------------	tuple	
+“*”x = range(6)----------------	range	
+ “*”x = dict(name="John", age=36)------------	dict	
+ “*”x = set(("apple", "banana", "cherry"))-------------	set	
+ “*”x = frozenset(("apple", "banana", "cherry"))------------	frozenset	
+ “*”x = bool(5)--------------	bool	
+ “*”x = bytes(5)----------	bytes	
+ “*”x = bytearray(5)----------	bytearray	
+ “*”x = memoryview(bytes(5))-----------	memoryview	
 
 ## Type conversion
 
@@ -181,29 +181,29 @@ print(myorder.format(quantity, itemno, price))
 
 Mathematical operators
 
-+	Addition	x + y	
--	Subtraction	x - y	
-*	Multiplication	x * y	
-/	Division	x / y	
-%	Modulus	x % y	
-**	Exponentiation	x ** y	
-//	Floor division	x // y   15//2 output 7 
+ “*”+	Addition	x + y	
+ “*”-	Subtraction	x - y	
+ “*”*	Multiplication	x * y	
+ “*”/	Division	x / y	
+ “*”%	Modulus	x % y	
+ “*”**	Exponentiation	x ** y	
+ “*”//	Floor division	x // y   15//2 output 7 
 
 
 Operator	Example	Same As	Try it
-=	x = 5	x = 5	
-+=	x += 3	x = x + 3	
--=	x -= 3	x = x - 3	
-*=	x *= 3	x = x * 3	
-/=	x /= 3	x = x / 3	
-%=	x %= 3	x = x % 3	
-//=	x //= 3	x = x // 3	
-**=	x **= 3	x = x ** 3	
-&=	x &= 3	x = x & 3	
-|=	x |= 3	x = x | 3	
-^=	x ^= 3	x = x ^ 3	
->>=	x >>= 3	x = x >> 3	
-<<=	x <<= 3	x = x << 3
+ “*”=	x = 5	x = 5	
+ “*”+=	x += 3	x = x + 3	
+ “*”-=	x -= 3	x = x - 3	
+ “*”*=	x *= 3	x = x * 3	
+ “*”/=	x /= 3	x = x / 3	
+ “*”%=	x %= 3	x = x % 3	
+ “*”//=	x //= 3	x = x // 3	
+ “*”**=	x **= 3	x = x ** 3	
+ “*”&=	x &= 3	x = x & 3	
+ “*”|=	x |= 3	x = x | 3	
+ “*”^=	x ^= 3	x = x ^ 3	
+ “*”>>=	x >>= 3	x = x >> 3	
+ “*”<<=	x <<= 3	x = x << 3
 
 
 ## List 
@@ -229,50 +229,50 @@ You can also loop through the list items by referring to their index number.
 ### string methods
 Use the range() and len() functions to create a suitable iterable.
 
-capitalize()	Converts the first character to upper case
-casefold()	Converts string into lower case
-center()	Returns a centered string
-count()	Returns the number of times a specified value occurs in a string
-encode()	Returns an encoded version of the string
-endswith()	Returns true if the string ends with the specified value
-expandtabs()	Sets the tab size of the string
-find()	Searches the string for a specified value and returns the position of where it was found
-format()	Formats specified values in a string
-format_map()	Formats specified values in a string
-index()	Searches the string for a specified value and returns the position of where it was found
-isalnum()	Returns True if all characters in the string are alphanumeric
-isalpha()	Returns True if all characters in the string are in the alphabet
-isdecimal()	Returns True if all characters in the string are decimals
-isdigit()	Returns True if all characters in the string are digits
-isidentifier()	Returns True if the string is an identifier
-islower()	Returns True if all characters in the string are lower case
-isnumeric()	Returns True if all characters in the string are numeric
-isprintable()	Returns True if all characters in the string are printable
-isspace()	Returns True if all characters in the string are whitespaces
-istitle()	Returns True if the string follows the rules of a title
-isupper()	Returns True if all characters in the string are upper case
-join()	Joins the elements of an iterable to the end of the string
-ljust()	Returns a left justified version of the string
-lower()	Converts a string into lower case
-lstrip()	Returns a left trim version of the string
-maketrans()	Returns a translation table to be used in translations
-partition()	Returns a tuple where the string is parted into three parts
-replace()	Returns a string where a specified value is replaced with a specified value
-rfind()	Searches the string for a specified value and returns the last position of where it was found
-rindex()	Searches the string for a specified value and returns the last position of where it was found
-rjust()	Returns a right justified version of the string
-rpartition()	Returns a tuple where the string is parted into three parts
-rsplit()	Splits the string at the specified separator, and returns a list
-rstrip()	Returns a right trim version of the string
-split()	Splits the string at the specified separator, and returns a list
-splitlines()	Splits the string at line breaks and returns a list
-startswith()	Returns true if the string starts with the specified value
-strip()	Returns a trimmed version of the string
-swapcase()	Swaps cases, lower case becomes upper case and vice versa
-title()	Converts the first character of each word to upper case
-translate()	Returns a translated string
-upper()	Converts a string into upper case
-zfill()	Fills the string with a specified number of 0 values at the beginning
+ “*”capitalize()	Converts the first character to upper case
+ “*”casefold()	Converts string into lower case
+ “*”center()	Returns a centered string
+ “*”count()	Returns the number of times a specified value occurs in a string
+ “*”encode()	Returns an encoded version of the string
+ “*”endswith()	Returns true if the string ends with the specified value
+ “*”expandtabs()	Sets the tab size of the string
+ “*”find()	Searches the string for a specified value and returns the position of where it was found
+ “*”format()	Formats specified values in a string
+ “*”format_map()	Formats specified values in a string
+ “*”index()	Searches the string for a specified value and returns the position of where it was found
+ “*”isalnum()	Returns True if all characters in the string are alphanumeric
+ “*”isalpha()	Returns True if all characters in the string are in the alphabet
+ “*”isdecimal()	Returns True if all characters in the string are decimals
+ “*”isdigit()	Returns True if all characters in the string are digits
+ “*”isidentifier()	Returns True if the string is an identifier
+ “*”islower()	Returns True if all characters in the string are lower case
+ “*”isnumeric()	Returns True if all characters in the string are numeric
+ “*”isprintable()	Returns True if all characters in the string are printable
+ “*”isspace()	Returns True if all characters in the string are whitespaces
+ “*”istitle()	Returns True if the string follows the rules of a title
+ “*”isupper()	Returns True if all characters in the string are upper case
+ “*”join()	Joins the elements of an iterable to the end of the string
+ “*”ljust()	Returns a left justified version of the string
+ “*”lower()	Converts a string into lower case
+ “*”lstrip()	Returns a left trim version of the string
+ “*”maketrans()	Returns a translation table to be used in translations
+ “*”partition()	Returns a tuple where the string is parted into three parts
+ “*”replace()	Returns a string where a specified value is replaced with a specified value
+ “*”rfind()	Searches the string for a specified value and returns the last position of where it was found
+ “*”rindex()	Searches the string for a specified value and returns the last position of where it was found
+ “*”rjust()	Returns a right justified version of the string
+ “*”rpartition()	Returns a tuple where the string is parted into three parts
+ “*”rsplit()	Splits the string at the specified separator, and returns a list
+ “*”rstrip()	Returns a right trim version of the string
+ “*”split()	Splits the string at the specified separator, and returns a list
+ “*”splitlines()	Splits the string at line breaks and returns a list
+ “*”startswith()	Returns true if the string starts with the specified value
+ “*”strip()	Returns a trimmed version of the string
+ “*”swapcase()	Swaps cases, lower case becomes upper case and vice versa
+ “*”title()	Converts the first character of each word to upper case
+ “*”translate()	Returns a translated string
+ “*”upper()	Converts a string into upper case
+ “*”zfill()	Fills the string with a specified number of 0 values at the beginning
 
 ## list
 
@@ -334,17 +334,17 @@ print(thislist)
 Python has a set of built-in methods that you can use on lists.
 
 Method	Description
-append()	Adds an element at the end of the list
-clear()	Removes all the elements from the list
-copy()	Returns a copy of the list
-count()	Returns the number of elements with the specified value
-extend()	Add the elements of a list (or any iterable), to the end of the current list
-index()	Returns the index of the first element with the specified value
-insert()	Adds an element at the specified position
-pop()	Removes the element at the specified position
-remove()	Removes the item with the specified value
-reverse()	Reverses the order of the list
-sort()	Sorts the list
+ “*”append()	Adds an element at the end of the list
+ “*”clear()	Removes all the elements from the list
+ “*”copy()	Returns a copy of the list
+ “*”count()	Returns the number of elements with the specified value
+ “*”extend()	Add the elements of a list (or any iterable), to the end of the current list
+ “*”index()	Returns the index of the first element with the specified value
+ “*”insert()	Adds an element at the specified position
+ “*”pop()	Removes the element at the specified position
+ “*”remove()	Removes the item with the specified value
+ “*”reverse()	Reverses the order of the list
+ “*”sort()	Sorts the list
 
 ## Tuple Methods
 Python has two built-in methods that you can use on tuples.
@@ -357,12 +357,12 @@ index()	Searches the tuple for a specified value and returns the position of whe
 
 Python supports the usual logical conditions from mathematics:
 
-Equals: a == b
-Not Equals: a != b
-Less than: a < b
-Less than or equal to: a <= b
-Greater than: a > b
-Greater than or equal to: a >= b
+ “*”Equals: a == b
+ “*”Not Equals: a != b
+ “*”Less than: a < b
+ “*”Less than or equal to: a <= b
+ “*”Greater than: a > b
+ “*”Greater than or equal to: a >= b
 
 These conditions can be used in several ways, most commonly in "if statements" and loops.
 
@@ -644,34 +644,34 @@ x = datetime.datetime(2018, 6, 1)
 
 print(x.strftime("%B"))
 
-%a	Weekday, short version	Wed	
-%A	Weekday, full version	Wednesday	
-%w	Weekday as a number 0-6, 0 is Sunday	3	
-%d	Day of month 01-31	31	
-%b	Month name, short version	Dec	
-%B	Month name, full version	December	
-%m	Month as a number 01-12	12	
-%y	Year, short version, without century	18	
-%Y	Year, full version	2018	
-%H	Hour 00-23	17	
-%I	Hour 00-12	05	
-%p	AM/PM	PM	
-%M	Minute 00-59	41	
-%S	Second 00-59	08	
-%f	Microsecond 000000-999999	548513	
-%z	UTC offset	+0100	
-%Z	Timezone	CST	
-%j	Day number of year 001-366	365	
-%U	Week number of year, Sunday as the first day of week, 00-53	52	
-%W	Week number of year, Monday as the first day of week, 00-53	52	
-%c	Local version of date and time	Mon Dec 31 17:41:00 2018	
-%C	Century	20	
-%x	Local version of date	12/31/18	
-%X	Local version of time	17:41:00	
-%%	A % character	%	
-%G	ISO 8601 year	2018	
-%u	ISO 8601 weekday (1-7)	1	
-%V	ISO 8601 weeknumber (01-53)	01	
+ “*”%a	Weekday, short version	Wed	
+ “*”%A	Weekday, full version	Wednesday	
+ “*”%w	Weekday as a number 0-6, 0 is Sunday	3	
+ “*”%d	Day of month 01-31	31	
+ “*”%b	Month name, short version	Dec	
+“*”%B	Month name, full version	December	
+“*”%m	Month as a number 01-12	12	
+“*”%y	Year, short version, without century	18	
+“*”%Y	Year, full version	2018	
+“*”%H	Hour 00-23	17	
+“*”%I	Hour 00-12	05	
+“*”%p	AM/PM	PM	
+“*”%M	Minute 00-59	41	
+“*”%S	Second 00-59	08	
+“*”%f	Microsecond 000000-999999	548513	
+“*”%z	UTC offset	+0100	
+“*”%Z	Timezone	CST	
+“*”%j	Day number of year 001-366	365	
+“*”%U	Week number of year, Sunday as the first day of week, 00-53	52	
+“*”%W	Week number of year, Monday as the first day of week, 00-53	52	
+“*”%c	Local version of date and time	Mon Dec 31 17:41:00 2018	
+“*”%C	Century	20	
+“*”%x	Local version of date	12/31/18	
+“*”%X	Local version of time	17:41:00	
+“*”%%	A % character	%	
+“*”%G	ISO 8601 year	2018	
+“*”%u	ISO 8601 weekday (1-7)	1	
+“*”%V	ISO 8601 weeknumber (01-53)	01	
 
 ### Built-in Math Functions
 The min() and max() functions can be used to find the lowest or highest value in an iterable:
@@ -755,8 +755,8 @@ This is done in a file called urls.py.
 ### 
 When you have installed Django and created you first Django web application, and the browser requests the URL, this is basically what happens:
 
-Django receives the URL, checks the urls.py file, and calls the view that matches the URL.
-The view, located in views.py, checks for relevant models.
-The models are imported from the models.py file.
-The view then sends the data to a specified template in the template folder.
-The template contains HTML and Django tags, and with the data it returns finished HTML content back to the browser.
+“*”Django receives the URL, checks the urls.py file, and calls the view that matches the URL.
+“*”The view, located in views.py, checks for relevant models.
+“*”The models are imported from the models.py file.
+“*”The view then sends the data to a specified template in the template folder.
+“*”The template contains HTML and Django tags, and with the data it returns finished HTML content back to the browser.
